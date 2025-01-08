@@ -19,6 +19,7 @@ model User {
   password String
 }
 
+
 model Zap {
   id        String   @id @default(uuid())
   triggerId String
